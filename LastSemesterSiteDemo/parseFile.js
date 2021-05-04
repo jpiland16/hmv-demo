@@ -22,7 +22,7 @@ function openFile() {
     
 }
 
-async function parseData(result) {
+function parseData(result) {
     var lines = result.split('\n');
 
     for(var line = 0; line < 1000; line ++){
